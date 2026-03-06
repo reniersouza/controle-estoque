@@ -27,3 +27,6 @@ function removerProduto(botao){
 botao.parentElement.remove()
 
 }
+if(quantidade < 5){
+alert("Estoque baixo!")
+}
