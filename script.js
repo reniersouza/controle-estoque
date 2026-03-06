@@ -27,6 +27,11 @@ function removerProduto(botao){
 botao.parentElement.remove()
 
 }
+
+function atualizarContador(){
+let total = document.querySelectorAll("#lista li").length
+document.getElementById("contador").textContent = "Total de produtos: " + total
+}
 if(quantidade < 5){
 alert("Estoque baixo!")
 }
