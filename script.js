@@ -44,3 +44,4 @@ document.getElementById("contador").textContent =
 "Total de produtos: " + total
 
 }
+atualizarContador()
